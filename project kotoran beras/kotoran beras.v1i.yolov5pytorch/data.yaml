@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Bulir_padi', 'Kerikil', 'Kutu_beras']
+
+roboflow:
+  workspace: haydar-qs
+  project: kotoran-beras
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/haydar-qs/kotoran-beras/dataset/1
